@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+![nuxt_boilerplate](https://user-images.githubusercontent.com/43410018/188461896-85a1b5ef-74bb-44c3-bb6e-60f7e45484bf.gif)
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
