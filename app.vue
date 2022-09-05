@@ -2,13 +2,13 @@
   <div class="app-home">
     <v-card max-width="600" class="mx-auto" color="grey-lighten-3">
       <v-layout>
-        <v-app-bar color="teal-darken-4" image="https://picsum.photos/1920/1080?random">
+        <v-app-bar color="teal-darken-4">
           <template v-slot:image>
             <v-img gradient="to top right, rgba(19,84,122,.8), rgba(128,208,199,.8)"></v-img>
           </template>
 
           <template v-slot:prepend>
-            <v-app-bar-nav-icon></v-app-bar-nav-icon>
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
           </template>
 
           <v-app-bar-title>Nuxt Vuetify Boilerplate</v-app-bar-title>
@@ -28,6 +28,13 @@
           </v-btn>
         </v-app-bar>
 
+        <v-navigation-drawer v-model="drawer" temporary>
+          <v-row align="center" justify="center" class="mt-5">
+            <v-avatar color="primary" size="56" class=" font-weight-bold">NB</v-avatar>
+            <span class="ml-2 font-weight-bold">Boilerplate</span>
+          </v-row>
+        </v-navigation-drawer>
+
         <v-main>
           <v-container fluid>
             <v-row dense>
@@ -42,3 +49,14 @@
     </v-card>
   </div>
 </template>
+<script>
+export default defineComponent({
+  data() {
+    return {
+      drawer: null,
+    }
+
+  },
+})
+</script>
+
