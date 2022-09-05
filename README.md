@@ -1,5 +1,5 @@
 # Nuxt 3 Minimal Starter
-https://user-images.githubusercontent.com/43410018/188468895-9f50ba20-bf0c-4763-8ca2-dea6675d05b1.mp4
+https://user-images.githubusercontent.com/43410018/188469574-a1765848-4179-4a9e-a6b1-6302e0c1b196.mp4
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
