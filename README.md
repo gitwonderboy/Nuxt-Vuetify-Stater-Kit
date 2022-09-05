@@ -1,6 +1,5 @@
 # Nuxt 3 Minimal Starter
-
-![nuxt_boilerplate](https://user-images.githubusercontent.com/43410018/188461896-85a1b5ef-74bb-44c3-bb6e-60f7e45484bf.gif)
+![Screencast 2022-09-05 15_02_43 (online-video-cutter com)](https://user-images.githubusercontent.com/43410018/188464381-a08c7fb0-ea78-4bab-b7f9-88a979872526.gif)
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
